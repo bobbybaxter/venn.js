@@ -319,7 +319,7 @@ export function wrapText(circles, labeller) {
             label = labeller(data) || '';
 
             var words = label.split(/\s+/).reverse(),
-            maxLines = 4,
+            maxLines = 5,
             minChars = (label.length + words.length) / maxLines,
             word = words.pop(),
             line = [word],
